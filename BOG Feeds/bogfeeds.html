@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basement Of Geeks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bogfeeds.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="nav-inner container">
+      <a class="brand" href="#">
+        <span class="brand-logo" aria-hidden="true"><img src="assets/BOG Logo/logo varient 1.png" alt="brand-logo"></span>
+        <span class="brand-text">Basement Of Geeks</span>
+      </a>
+
+      <nav class="primary-nav">
+        <a href="#about">About</a>
+        <a href="#topics">Topics</a>
+        <a href="#events">Events</a>
+      </nav>
+
+      <div class="search-signin">
+        <div class="search">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 21l-4.3-4.3m1.3-4.7a7 7 0 11-14 0 7 7 0 0114 0z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input type="text" placeholder="Search" aria-label="Search"/>
+        </div>
+        <button class="btn btn-ghost">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+<!-- Category Tabs -->
+    <div class="categories">
+        <button class="category active" data-category="pop">Pop Culture</button>
+        <button class="category" data-category="gaming">Gaming</button>
+        <button class="category" data-category="tech">Tech & AI</button>
+        <button class="category" data-category="art">Art & Creativity</button>
+        <button class="category" data-category="sports">Sports & Fitness</button>
+        <button class="category" data-category="travel">Tours & Travel</button>
+    </div>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles">
+        <!-- Articles dynamically injected -->
+    </section>
+
+
+  
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container foot-grid">
+      <div>
+        <a class="brand" href="#">
+          <span class="brand-logo" aria-hidden="true"> <img src="/assets/BOG Logo/logo varient 1.png" alt="brand-logo"></span>
+          <span class="brand-text">BOG</span>
+        </a>
+        <p class="tiny">© 2025 Basement of Geeks. All Rights Reserved.</p>
+      </div>
+      <div class="links">
+        <a href="#">Contact Us</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+      <div class="links">
+        <a href="#">Account</a>
+        <a href="#">Help Centre</a>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Discord">💬</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="WhatsApp">◉</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bogfeeds.js"></script>
+</body>
+</html>
