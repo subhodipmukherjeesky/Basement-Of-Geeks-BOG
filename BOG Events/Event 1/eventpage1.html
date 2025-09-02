@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basement Of Geeks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="eventpage1.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="nav-inner container">
+      <a class="brand" href="#">
+        <span class="brand-logo" aria-hidden="true"><img src="assets/BOG Logo/logo varient 1.png" alt="brand-logo"></span>
+        <span class="brand-text">Basement Of Geeks</span>
+      </a>
+
+      <nav class="primary-nav">
+        <a href="#about">About</a>
+        <a href="#topics">Topics</a>
+        <a href="#events">Events</a>
+      </nav>
+
+      <div class="search-signin">
+        <div class="search">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 21l-4.3-4.3m1.3-4.7a7 7 0 11-14 0 7 7 0 0114 0z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input type="text" placeholder="Search" aria-label="Search"/>
+        </div>
+        <button id="bog-signin-btn" class="btn btn-ghost">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+  
+ <!-- Hero Image Section -->
+
+  <section id="bog-hero">
+      <div class="bog-hero-bg">
+        <img src="/assets/dsevent.png" alt="" />
+      </div>
+
+      <div class="bog-container bog-hero-inner">
+        <div class="bog-hero-left">
+          <h1 class="bog-hero-title">
+            Watch out latest<br>
+            Demon Slayer Movie<br>
+            Meet Up Event in PVR!
+          </h1>
+        </div>
+
+        <aside class="bog-hero-cta">
+          <button id="bog-register-btn" class="bog-cta-button">
+            <span>CLICK HERE TO</span>
+            <strong>REGISTER YOUR SEAT</strong>
+          </button>
+
+          <!-- Auto-updating progress -->
+          <div class="bog-progress-wrap">
+            <div class="bog-progress-top">
+              <span>Seats Filled</span>
+              <span id="bog-progress-value">0%</span>
+            </div>
+            <div class="bog-progress-bar">
+              <div id="bog-progress-fill"></div>
+            </div>
+            <div class="bog-progress-bottom">
+              <span id="bog-seats-booked">0</span> / <span id="bog-seats-total">0</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Details Row -->
+    <section id="bog-details">
+      <div class="bog-container bog-details-grid">
+        <!-- Event Date -->
+        <div class="bog-card">
+          <h2 class="bog-card-title"><span class="card-icon">📅</span> EVENT DATE</h2>
+          <p id="bog-date-line"><strong>15 SEPTEMBER 2025</strong></p>
+          <p id="bog-time-line">11:00 AM TO 5 PM</p>
+          <p id="bog-day-line">(MONDAY)</p>
+          <p class="bog-countdown" id="bog-countdown">⏳ Loading countdown...</p>
+        </div>
+
+        <!-- Info -->
+        <div class="bog-card">
+          <h2 class="bog-card-title"><span class="card-icon">ℹ️</span> INFO IN BRIEF</h2>
+          <p>
+            Basement of Geeks brings you the Demon Slayer: Infinity Castle Movie Meetup! 
+          </p>
+          <ul class="bog-highlights">
+            <li>🎬 Big-screen experience</li>
+            <li>🍿 Free popcorn & drinks</li>
+            <li>🎭 Cosplay competition</li>
+            <li>🎁 Exclusive merch giveaway</li>
+          </ul>
+        </div>
+
+        <!-- Venue -->
+        <div class="bog-card">
+          <h2 class="bog-card-title"><span class="card-icon">📍</span> VENUE LOCATION</h2>
+          <p class="bog-venue-name">LAKE MALL KOLKATA</p>
+          <address>
+            104, Rash Behari Ave, Lake Market, Kalighat,<br>
+            Kolkata, West Bengal 700029
+          </address>
+          <p class="bog-capacity">🎟 Seats Available: 120</p>
+          <div class="bog-map-cta">
+            <a id="bog-map-link" class="bog-link" target="_blank">
+              <span class="map-link-icon">🗺️</span> Google Map Location
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container foot-grid">
+      <div>
+        <a class="brand" href="#">
+          <span class="brand-logo" aria-hidden="true"> <img src="/assets/BOG Logo/logo varient 1.png" alt=""></span>
+          <span class="brand-text">BOG</span>
+        </a>
+        <p class="tiny">© 2025 Basement of Geeks. All Rights Reserved.</p>
+      </div>
+      <div class="links">
+        <a href="#">Contact Us</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+      <div class="links">
+        <a href="#">Account</a>
+        <a href="#">Help Centre</a>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Discord">💬</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="WhatsApp">◉</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="eventpage1.js"></script>
+</body>
+</html>
